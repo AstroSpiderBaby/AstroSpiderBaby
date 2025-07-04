@@ -17,10 +17,11 @@ This project demonstrates an end-to-end batch ingestion pipeline using **Azure D
 
 ## 📑 Table of Contents
 
-- [🔧 Current Capabilities](#-current-capabilities)
-- [🚀 What’s Next](#-whats-next)
-- [📁 Project Overview](#-project-overview)
-- [🧠 About Me](#-about-me)
+- [📝 Current Capabilities](#current-capabilities)
+- [🚀 What’s Next](#whats-next)
+- [📂 Project Overview](#project-overview)
+- [🧰 Tools Used](#tools-used)
+- [👤 About Me](#about-me)
 
 ---
 
@@ -39,7 +40,8 @@ This project demonstrates an end-to-end batch ingestion pipeline using **Azure D
 
 ## 🚀 What’s Next
 
-- 🌀 Auto Loader integration for real-time ingestion  
+- 🌀 Auto Loader integration for real-time ingestion
+- 🚧 ADF-driven data ingestion for vendor registry 
 - 🔁 Incremental ingestion patterns using file metadata or watermark fields  
 - 🔎 Metadata-driven configs via YAML for flexible pipeline control  
 - 🧪 Layer-specific data quality checks:
@@ -64,6 +66,13 @@ pipeline1_batch_delta/
 ├── transform/    # Modular transformation logic
 ├── docs/         # Setup instructions and scripts
 ```
+
+## 🧰 Tools Used
+
+- **Azure Databricks** (Workflows, Delta Lake, Key Vault integration)
+- **Azure Data Factory** (coming soon)
+- **GitHub** for version control
+- **Parquet + CSV + JSON + TXT**  data formats
 
 ---
 💬 About Me  

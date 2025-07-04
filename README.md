@@ -57,17 +57,24 @@ This project demonstrates an end-to-end batch ingestion pipeline using **Azure D
 
 ```text
 pipeline1_batch_delta/
-├── bronze/         # Ingest mock data (finance, vendors, etc.)
-├── silver/         # Clean & join (e.g., vendor compliance)
-├── gold/           # Final aggregated outputs
-├── utils/          # Mounts, secrets, helpers
-├── transform/      # Modular transformation logic
-└── docs/           # Setup instructions and scripts
-🧠 About Me
-I'm a data engineer passionate about building scalable data systems using open-source tools and cloud-native architectures. I thrive at the intersection of pipelines, analytics, and automation.
+├── bronze/       # Ingest mock data (finance, vendors, etc.)
+├── silver/       # Clean & join (e.g., vendor compliance)
+├── gold/         # Final aggregated outputs
+├── utils/        # Mounts, secrets, helpers
+├── transform/    # Modular transformation logic
+├── docs/         # Setup instructions and scripts
+```
 
-🌐 Let’s connect → linkedin.com/in/brucejenks
-🐍 More coming soon: dbt, streaming, governance, and advanced SQL tuning!
+---
+💬 About Me  
+I'm a data engineer passionate about building scalable data systems using open-source tools and cloud-native architectures.
+
+📜 Certified: [Databricks Certified Data Engineer Associate](https://credentials.databricks.com/5c463e68-5e4a-41e0-a127-3f9c8501c68e#acc.xCdZN3jg)  
+🔗 Let's connect → [linkedin.com/in/brucejenks](https://linkedin.com/in/brucejenks)  
+
+
+🌐 Let’s connect → [linkedin.com/in/brucejenks](https://linkedin.com/in/brucejenks)  
+🔄 More coming soon: dbt, streaming, governance, and advanced SQL tuning!
 
 
 🧪 Maintained by AstroSpiderBaby

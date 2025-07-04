@@ -1,61 +1,66 @@
-# Modular Databricks Pipeline Framework
+Welcome to my GitHub! I specialize in building modern, modular data pipelines with **Databricks**, **Azure**, and **Delta Lake**—with a focus on clean design, automation, and secure architecture.
+
+---
+
+## 🔥 Featured Project: Modular Databricks Pipeline Framework
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
 ![Databricks](https://img.shields.io/badge/Platform-Databricks-orange)
 ![Azure](https://img.shields.io/badge/Cloud-Azure-blue)
 
-This repository showcases an end-to-end modular data pipeline built on Databricks. It supports secure credential management, organized processing stages, and reusable code modules.
+> This project demonstrates an end-to-end batch ingestion pipeline using **Azure Databricks**, **Delta Lake**, and **Azure Key Vault**—with a clean Bronze → Silver → Gold architecture, secure mounting, and workflow orchestration.
+
+📍 **Live Repo**: [databricks-pipelines](https://github.com/AstroSpiderBaby/databricks-pipelines)  
+📘 **Full Technical Docs**: [Root README](https://github.com/AstroSpiderBaby/databricks-pipelines/blob/main/README.md)
 
 ---
 
 ## 📑 Table of Contents
 
-- [Current Capabilities](#-current-capabilities)
-- [Coming Enhancements](#-coming-enhancements)
-- [Repository Structure](#-repository-structure)
-- [Setup Instructions](#-setup-instructions)
-- [How to Run](#-how-to-run)
-- [Contributing](#-contributing)
+- [🔧 Current Capabilities](#-current-capabilities)
+- [🚀 What’s Next](#-whats-next)
+- [📁 Project Overview](#-project-overview)
+- [🧠 About Me](#-about-me)
 
 ---
 
-## ✅ Current Capabilities
+## 🔧 Current Capabilities
 
-- 📥 Batch ingestion of flat files & JSON using `dbutils.fs` and secure mounts  
-- 🔐 Secure mounting via **Secret Scopes** and **Azure Key Vault**
-- 🪵 Delta Architecture: Bronze → Silver → Gold
-- 🧩 Databricks Workflows for orchestration
-- 📁 Modular folder structure (`/utils`, `/docs`, `/transform`)
-- 📓 Notebooks documenting setup and CLI usage
-
----
-
-## 🔮 Coming Enhancements
-
-- ⚙️ Integration with **Auto Loader** for streaming file support
-- 🌐 Simulated **on-prem SQL Server** ingestion + **multi-cloud connectors** (AWS, GCP)
-- 🧪 Unit testing, data validation, and monitoring hooks
-- 🧬 YAML-based metadata config system to automate pipeline execution
+- 🏗️ Modular pipeline structure using `bronze/`, `silver/`, and `gold/` stages
+- 🔐 Secure integration with **Azure Key Vault** and **Databricks Secret Scopes**
+- 📦 Blob storage mounting for ingestion of flat files and JSON
+- 🧩 Clean enrichment and transformation layers using PySpark
+- 🪵 Delta format tables and Databricks Workflows for orchestration
+- 🧪 Full pipeline run documented via notebooks (and CLI support)
 
 ---
 
-## 📁 Repository Structure
+## 🚀 What’s Next
+
+- 🌀 Auto Loader integration for real-time ingestion  
+- 🔄 SQL Server (on-prem) to Databricks via **Ngrok + JDBC**  
+- 🔎 Metadata-driven config via YAML  
+- 📊 Dashboard-ready gold layer with compliance + vendor metrics
+
+---
+
+## 📁 Project Overview
 
 ```text
 pipeline1_batch_delta/
-│
-├── bronze/                 # Raw ingestion logic
-├── silver/                 # Cleaned and structured transformations
-├── gold/                   # Aggregated or curated outputs
-├── transform/              # Additional reusable transformation logic
-├── utils/                  # Helper scripts (mounts, writes, secrets)
-│   ├── mount_lv426_blobstorage.py
-│   ├── write_to_delta.py
-│   └── README.md
-├── docs/                   # Setup notes and instructional notebooks
-│   ├── azure_key_vault_setup
-│   ├── databricks_env_setup
-│   ├── secret_scope_setup
-│   ├── token_generation
-│   └── mounting_blobstorage_notes
-└── notebooks/              # Interactive development and test runs
+├── bronze/         # Ingest mock data (finance, vendors, etc.)
+├── silver/         # Clean & join (e.g., vendor compliance)
+├── gold/           # Final aggregated outputs
+├── utils/          # Mounts, secrets, helpers
+├── transform/      # Modular transformation logic
+└── docs/           # Setup instructions and scripts
+🧠 About Me
+I'm a data engineer passionate about building scalable data systems using open-source tools and cloud-native architectures. I thrive at the intersection of pipelines, analytics, and automation.
+
+🌐 Let’s connect → linkedin.com/in/brucejenks
+🐍 More coming soon: dbt, streaming, governance, and advanced SQL tuning!
+
+
+🧪 Maintained by AstroSpiderBaby
+🕒 Last updated: July 2025
+"""

@@ -2,16 +2,16 @@ Welcome to my GitHub! I specialize in building modern, modular data pipelines wi
 
 ---
 
-## 🔥 Featured Project: Modular Databricks Pipeline Framework
+🔥 Featured Project: Modular Databricks Pipeline Framework
 
-![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
-![Databricks](https://img.shields.io/badge/Platform-Databricks-orange)
-![Azure](https://img.shields.io/badge/Cloud-Azure-blue)
+This project demonstrates an end-to-end batch ingestion pipeline using **Azure Databricks**, **Delta Lake**, and **Azure Key Vault**—with a clean Bronze → Silver → Gold architecture, secure mounting, and workflow orchestration.
 
-> This project demonstrates an end-to-end batch ingestion pipeline using **Azure Databricks**, **Delta Lake**, and **Azure Key Vault**—with a clean Bronze → Silver → Gold architecture, secure mounting, and workflow orchestration.
+🧪 **Includes full mock datasets** for easy testing and demonstration  
+📦 [`mock_data/`](https://github.com/AstroSpiderBaby/databricks-pipelines/tree/main/mock_data) — CSV & JSON files used for Bronze layer ingestion  
+🛠️ [`generate_mock_data.py`](https://github.com/AstroSpiderBaby/databricks-pipelines/blob/main/generate_mock_data.py) — Optional script to re-export files from Delta or Blob
 
-📍 **Live Repo**: [databricks-pipelines](https://github.com/AstroSpiderBaby/databricks-pipelines)  
-📘 **Full Technical Docs**: [Root README](https://github.com/AstroSpiderBaby/databricks-pipelines/blob/main/README.md)
+🔗 **Live Repo:** [databricks-pipelines](https://github.com/AstroSpiderBaby/databricks-pipelines)  
+📘 **Full Docs:** [Root README](https://github.com/AstroSpiderBaby/databricks-pipelines#-databricks-pipelines)
 
 ---
 

@@ -28,8 +28,10 @@ This project demonstrates an end-to-end batch ingestion pipeline using **Azure D
 
 - 🏗️ Modular pipeline structure using `bronze/`, `silver/`, and `gold/` stages
 - 🔐 Secure integration with **Azure Key Vault** and **Databricks Secret Scopes**
+- 🔄 SQL Server (on-prem) to Databricks via **Ngrok + JDBC**  
 - 📦 Blob storage mounting for ingestion of flat files and JSON
-- 🧩 Clean enrichment and transformation layers using PySpark
+- 📋 Databricks Workflows orchestrating multi-step pipelines with task dependencies
+- 🧩 PySpark transformations for clean enrichment, joins, and validations
 - 🪵 Delta format tables and Databricks Workflows for orchestration
 - 🧪 Full pipeline run documented via notebooks (and CLI support)
 
@@ -38,9 +40,16 @@ This project demonstrates an end-to-end batch ingestion pipeline using **Azure D
 ## 🚀 What’s Next
 
 - 🌀 Auto Loader integration for real-time ingestion  
-- 🔄 SQL Server (on-prem) to Databricks via **Ngrok + JDBC**  
-- 🔎 Metadata-driven config via YAML  
-- 📊 Dashboard-ready gold layer with compliance + vendor metrics
+- 🔁 Incremental ingestion patterns using file metadata or watermark fields  
+- 🔎 Metadata-driven configs via YAML for flexible pipeline control  
+- 🧪 Layer-specific data quality checks:
+  - **Bronze**: Schema enforcement, null validation, corrupt record handling  
+  - **Silver**: Deduplication, referential integrity, outlier detection  
+  - **Gold**: Metric validation, completeness checks, threshold alerts  
+- 📦 S3 integration for cross-cloud ingestion from AWS sources  
+- 🛠️ Alternate pipeline with **DBT** for declarative transformations and model versioning  
+- 📊 Dashboard-ready Gold Layer with KPIs for compliance & vendor health
+
 
 ---
 

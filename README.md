@@ -70,10 +70,9 @@ pipeline1_batch_delta/
 I'm a data engineer passionate about building scalable data systems using open-source tools and cloud-native architectures.
 
 📜 Certified: [Databricks Certified Data Engineer Associate](https://credentials.databricks.com/5c463e68-5e4a-41e0-a127-3f9c8501c68e#acc.xCdZN3jg)  
-🔗 Let's connect → [linkedin.com/in/brucejenks](https://linkedin.com/in/brucejenks)  
-
 
 🌐 Let’s connect → [linkedin.com/in/brucejenks](https://linkedin.com/in/brucejenks)  
+
 🔄 More coming soon: dbt, streaming, governance, and advanced SQL tuning!
 
 
